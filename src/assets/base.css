@@ -1,0 +1,36 @@
+@import './fonts.css';
+
+:root {
+    --header-light: #8da0aa;
+    --header-dark: #181e20;
+    --hero-image_height: 325px;
+}
+
+@media (prefers-color-scheme: dark) {
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'DWS Slab';
+    padding-bottom: 80px ;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}

@@ -1,0 +1,15 @@
+@import './base.css';
+@import 'primeicons/primeicons.css';
+
+.header-dark {
+    color: var(--header-dark);
+}
+.header-light {
+    color: var(--header-light);
+}
+
+@media screen and (max-width: 1024px) {
+    .d-base-button {
+        width: 100%;
+    }
+}
